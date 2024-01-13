@@ -1,0 +1,101 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    border-radius: 10px;
+    background: #a2a2a2; /* The Dark background */
+  }
+  
+  .container {
+    margin-left: 1.8em;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #a8ceff;
+    background: #252525; /*The main calculator body */
+  }
+  
+  .content {
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .row button {
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    border-radius: 8px;
+    border:2px solid #ffffff;
+    transition: .1s;
+    background-color: #CCCCCC; /* Dark button background */
+    color: #232323; /* Text color for buttons */
+  }
+  
+  /* darker on hover */
+  .row button:hover {
+    background: #7a7a7a;
+    color: #f7f7f7; 
+  }
+  
+  .display #screen {
+    margin-bottom: .5em;
+    width: 380px;
+    height: 100px;
+    font-size: 45px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #c9c9c9; /* Darker display background */
+    border-radius: 8px;
+    color: #3d3d3d; /* Text color for display */
+  }
+  
+/* all the hover effects for the colored texts*/
+  #eval {
+    width: 180px;
+    background: #1eb0e1;
+    color: #fff;
+  }
+  
+  #eval:hover {
+    background-color: #2a6eb2;    
+  }
+  
+  #ac {
+    background: #33cc33;
+    color: #fff;
+  }
+  
+  #ac:hover {
+    background-color: #0a9d0a;
+  }
+  
+  #ce {
+    background: #d22916;
+    color: #fff;
+  }
+  
+  #ce:hover {
+    background:#900e00
+  }  
+
+  #operator {
+    color: white;
+    background-color:rgb(255, 99, 42);
+  }
+
+  #operator:hover {
+    background-color: rgb(201, 54, 0);
+  }
+
